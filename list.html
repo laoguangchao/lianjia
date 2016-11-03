@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>链家网-列表页</title>
+    <link rel="stylesheet" href="frameworks/bootstrap-3.3.0-dist/css/bootstrap.min.css">
+    <script src="frameworks/jquery-2.1.4/jquery.min.js"></script>
+    <script src="frameworks/bootstrap-3.3.0-dist/js/bootstrap.min.js"></script>
+    <!--自定义-->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="container-fluid">
+        <div class="row" id="header1">
+            <div class="col-xs-3">
+                <a href="#"><img src="images/logo1.png" alt=""></a>
+            </div>
+
+            <div class="col-xs-3 col-xs-offset-1">
+
+                <div>
+                    上海  <span class="caret"></span>
+                </div>
+            </div>
+
+            <div class="col-xs-5 options text-center">
+                <a href="#">
+                    <ul class="list-unstyled pull-right">
+                        <li class="glyphicon glyphicon-download-alt"></li>
+                        <li>APP</li>
+                    </ul>
+                </a>
+
+                <a href="#">
+                    <ul class="list-unstyled pull-right">
+                        <li class="glyphicon glyphicon-user"></li>
+                        <li>我的</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+
+
+        <!--搜索框-->
+        <div class="row searchBox">
+            <div class="col-xs-10 col-xs-offset-1">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="请输入小区或模板名" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2" >
+                       <a href="#"> <span class=" glyphicon glyphicon-search"></span></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</header>
+
+<div class="container-fluid" id="selection">
+    <div class="row" >
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                   区域  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li>
+                        <div class="">
+                            <div class="col-xs-11 col-xs-offset-1">不限</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <div class="col-xs-11 col-xs-offset-1">黄浦区</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <div class="col-xs-11 col-xs-offset-1">徐汇区</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <div class="col-xs-11 col-xs-offset-1">虹口区</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <div class="col-xs-11 col-xs-offset-1">宝山区</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <div class="col-xs-11 col-xs-offset-1">青浦区</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <div class="col-xs-11 col-xs-offset-1">闸北区</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="">
+                            <div class="col-xs-11 col-xs-offset-1">嘉定区</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                   总价  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+            </div>
+
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                     户型  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+            </div>
+
+            <div class="btn-group" role="group">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                   更多 <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Dropdown link</a></li>
+                    <li><a href="#">Dropdown link</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="container-fluid">
+    <div class="row house-list">
+        <div class="list-header">
+            热门房源
+        </div>
+        <div class="list-content">
+            <div class="media">
+                <div class="media-left">
+                    <img src="images/list_01.png" class="" alt="nav">
+                </div>
+                <div class="media-body">
+                    <div class="media-heading">成熟社区，闹中取静</div>
+                    <small class="">2室一厅 南北通透</small>
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-left">
+                    <img src="images/list_01.png" class="" alt="nav">
+                </div>
+                <div class="media-body">
+                    <div class="media-heading">成熟社区，闹中取静</div>
+                    <small class="">2室一厅 南北通透</small>
+                </div>
+            </div>
+            <div class="media">
+                <div class="media-left">
+                    <img src="images/list_01.png" class="" alt="nav">
+                </div>
+                <div class="media-body">
+                    <div class="media-heading">成熟社区，闹中取静</div>
+                    <small class="">2室一厅 南北通透</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

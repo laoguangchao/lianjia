@@ -1,0 +1,400 @@
+/*首页样式*/
+/*头部*/
+/*第一行*/
+.header{
+    height: 256px;
+    background: url("../images/bg1.jpg") no-repeat;
+    position: relative;
+    -webkit-background-size:cover;
+    background-size:cover;
+    -webkit-background-origin:border-box;
+    background-origin:border-box;
+}
+.header .row-one{
+    margin: 20px;
+}
+.header .row-one>div{
+    height: 50px;
+}
+.header .row-one .label{
+    background: #3d3d3d;
+    margin: 5px 0;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.header .row-one .options>ul{
+    width: 38px;
+    text-align: center;
+}
+.header .row-one .options>ul:first-child{
+    margin-right: -15px;
+}
+/*头部第二行*/
+.header .row-two{
+    margin-top: -10px;
+    text-align: center;
+    color: #ffffff;
+}
+.header .row-two>h3{
+    font-weight: 100;
+}
+/*头部第三行*/
+.header .row-three{
+    width: 80%;
+    margin-left: 10%;
+    position: absolute;
+    bottom: 10px;
+}
+
+/*第二部分*/
+.buys{
+    padding-top:22px;
+    border-bottom:1px solid #c5c5c5;
+}
+.buys ul{
+    width:51px;
+    margin:  auto;
+    text-align: center;
+    height: 119px;
+}
+.buys ul>li:last-child{
+    margin-top: 5px;
+}
+/*第三部分*/
+.carousels{
+    margin: 0 -15px;
+    padding: 10px 0px;
+    background: #f4f4f4;
+    border-bottom: 1px solid #c5c5c5;
+}
+.carousels img{
+    width: 100%;
+}
+/*第四部分*/
+.house-list{
+
+}
+.house-list > .list-header{
+    height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+
+}
+.house-list > .list-content > .media{
+    padding: 15px 10px;
+    border-top: 1px solid #c5c5c5;
+    margin: 0;
+}
+.house-list > .list-content > .media .media-heading{
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+/*detail*/
+#header{
+    background-color: #00AE66;
+}
+
+#header>div>div{
+    background-color:#00AE66;
+    color:#fff;
+    padding: 15px 0;
+}
+#header>div>div:hover{
+    cursor: pointer;
+}
+
+#header>div>a>img{
+    margin: 17px 0;
+}
+
+#header>div>a>ul{
+    margin: 5px 5px;
+    color: #fff;
+}
+
+
+div#ads{
+    padding: 0;
+}
+div#ads>img{
+    width:100%;
+}
+
+
+#advertisement{
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    background-color: #F9F9F9;
+}
+#advertisement>div>div{
+    padding:18px 5px 0 0;
+}
+#advertisement>div>div:nth-child(2){
+    border-left: 1px solid #DCDCDC;
+}
+
+
+#introduce{
+    border-bottom: 1px solid #DCDCDC;
+}
+#introduce>div{
+    margin: 10px 0;
+    border-right: 1px solid #DCDCDC;
+}
+
+#introduce>div:last-child{
+    border-right:none;
+}
+#introduce>div>ul>li:nth-child(2){
+    color:#DE6843;
+}
+
+#house_info>div.row{
+
+    height:50px;
+    border-bottom: 1px solid #DCDCDC;
+    line-height: 50px;
+}
+
+
+
+/*list*/
+/*搜索框*/
+.searchBox{
+    height: 60px;
+    background-color: #F4F4F4;
+}
+
+.searchBox>div>div{
+    margin:12px 0 ;
+}
+
+.searchBox>div>div{
+    border: 1px solid #D5D5D5;
+}
+.searchBox>div>div>input,.searchBox>div>div>span{
+    border:none;
+    background-color: #fff;
+}
+.searchBox>div>div>input{
+    border-right: 1px solid #D5D5D5;
+}
+
+/*筛选条件*/
+#selection>div>div>div>button{
+    padding: 9px 0;
+}
+#selection>div>div>div{
+    position: static;
+    word-spacing:8px;
+    letter-spacing: 2px;
+}
+#selection>div>div>div>ul{
+    position: absolute;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    left: 0;
+}
+
+#selection>div>div>div>ul>li{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #D5D5D5;
+}
+#selection li>div.row>div{
+    padding: 0;
+}
+
+/*login*/
+
+
+#row1{
+    height: 38px;
+    line-height: 38px;
+    font-weight: bold;
+}
+#row1>div>a{
+    color: black;
+    text-decoration: none;
+}
+#row1>div{
+    cursor: pointer;
+}
+#row1>div.active{
+    border-bottom: 4px solid #39AC6A;
+}
+
+
+
+#row2{
+    height:4px;
+    background-color: #D1D1D1;
+}
+
+
+
+#login1>form>div>div input{
+    border:none;
+    box-shadow: none;
+}
+
+#login1>form>div>div{
+    border-bottom: 1px solid #E9E9E9;
+}
+
+#login1>form>div:last-child>div{
+    border-bottom:none;
+}
+
+
+
+#login2>form>div>div{
+    border-bottom: 1px solid #E9E9E9;
+}
+
+#login2>form>div:last-child>div{
+    border-bottom:none;
+}
+
+#login2>form>div>div input{
+    border:none;
+    box-shadow: none;
+}
+
+#login2>form>div:first-child button{
+    margin: 6px 0;
+}
+
+
+/*register*/
+#register{
+
+}
+#register>div>div{
+    border-bottom: 1px solid #E9E9E9;
+}
+
+#register>div:last-child>div{
+    border-bottom:none;
+}
+
+#register>div>div input{
+    border:none;
+    box-shadow: none;
+}
+
+#register>div:first-child button{
+    margin: 6px 0;
+}
+
+
+/*selectCity*/
+
+#selectCity{
+    height: 50px;
+    background-color: #00AE66;
+}
+
+#selectCity>div:first-child>div{
+    color: #fff;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#selectCity>div:first-child>div>a{
+    float: left;
+    color: #fff;
+    text-decoration: none;
+}
+#selectCity>div:nth-child(2)>div{
+    line-height: 30px;
+    background-color: #EAEAEB;
+}
+
+#selectCity>div:nth-child(3)>div{
+    line-height: 50px;
+}
+
+#selectCity>div:nth-child(4)>div{
+    line-height: 30px;
+    background-color: #EAEAEB;
+}
+
+#allCity>div.row>div{
+    border-bottom: 1px solid #EBEBEB;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    margin-left: 15px;
+}
+
+#allCity>div.row>div>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/*self*/
+
+#header{
+    background-color: #00AE66;
+}
+
+#header>div>div{
+    background-color:#00AE66;
+    color:#fff;
+    padding: 15px 0;
+}
+#header>div>div:hover{
+    cursor: pointer;
+}
+
+#header>div>a>img{
+    margin: 17px 0;
+}
+
+#header>div>a>ul{
+    margin: 5px 0;
+    color: #fff;
+}
+
+div.login_register{
+    background:url("../images/mine_head_bg.png") center no-repeat;
+    background-size: 100% 100%;
+    height: 130px;
+}
+.login_register>div.user{
+    width: 52px;
+    height: 52px;
+    margin: 15px auto;
+}
+.login_register>div.row>div>button{
+    border: 1px solid #fff;
+}
+
+.attention>div.row>div{
+    height: 50px;
+    line-height: 50px;
+}
+.attention>div.row>div{
+    border-bottom: 1px solid #DFDFDF;
+}
+.attention>div.row>div:nth-child(2){
+    color: #DFDFDF;
+    font-size: 20px;
+}
+.attention>div.row:last-child{
+    border-bottom: 1px solid #DFDFDF;
+}
+.attention>div.row:last-child>div{
+    border-bottom: none;
+}
+
+
+

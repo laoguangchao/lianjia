@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>链家网-注册</title>
+    <link rel="stylesheet" href="frameworks/bootstrap-3.3.0-dist/css/bootstrap.min.css">
+    <script src="frameworks/jquery-2.1.4/jquery.min.js"></script>
+    <script src="frameworks/bootstrap-3.3.0-dist/js/bootstrap.min.js"></script>
+    <!--自定义-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+
+<header>
+    <div class="container-fluid">
+        <div class="row" id="header1">
+            <div class="col-xs-3">
+                <a href="#"><img src="images/logo1.png" alt=""></a>
+            </div>
+
+            <div class="col-xs-3 col-xs-offset-1">
+
+                <div>
+                    上海  <span class="caret"></span>
+                </div>
+            </div>
+
+            <div class="col-xs-5 options text-center">
+                <a href="#">
+                    <ul class="list-unstyled pull-right">
+                        <li class="glyphicon glyphicon-download-alt"></li>
+                        <li>APP</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+    <div class="container-fluid">
+        <form class="form-horizontal" action="#" id="register">
+
+            <div class="form-group">
+                <div class="col-xs-11 col-xs-offset-1">
+                    <div class="row">
+                        <div class="col-xs-8">
+                            <input type="tel" class="form-control"  placeholder="请输入手机号">
+                        </div>
+                        <div class="col-xs-3 col-sm-push-1 col-xs-pull-1">
+                            <button class="btn btn-success btn-xs">发送验证码</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-xs-11 col-xs-offset-1">
+                    <input type="text" class="form-control" placeholder="请输入短信验证码">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-11 col-xs-offset-1">
+                            <input type="password" class="form-control"  placeholder="请输入登录密码">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <button type="submit" class="btn btn-block btn-success">立即注册</button>
+                </div>
+            </div>
+
+        </form>
+
+
+        <div class="row">
+            <div class="col-xs-7 col-xs-offset-1">
+                已有链家账号?<a href="#">立即登录</a>
+            </div>
+            <div class="col-xs-4  col-sm-pull-1 text-right col-md-pull-1 col-xs-pull-1">
+                <a href="#">忘记密码</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
